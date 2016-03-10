@@ -14,3 +14,4 @@ https://github.com/MMP-forTour/cropimage.
 
 Xamarin Android has social login with Google Plus + Facebook.
 For upload to Azure with Xamarin android,I use phpbackend (for get list blob of container) and nodejs backend to generate SAS connection token
+RestSharp + Sqlite for Xamarin Android include.
