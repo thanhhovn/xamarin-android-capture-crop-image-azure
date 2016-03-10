@@ -30,8 +30,8 @@ use WindowsAzure\Table\Internal\MimeReaderWriter;
 use WindowsAzure\MediaServices\MediaServicesRestProxy;
 use WindowsAzure\Common\Internal\OAuthRestProxy;
 use WindowsAzure\Common\Internal\Authentication\OAuthScheme;
-//$connectionString = "DefaultEndpointsProtocol=https;AccountName=thanhhosr;AccountKey=4WrY+PtDhmwn4egEY8ti9dEtHrn/gzNqjbPYU7UCOZv+0+AfNbyq9zXtVEW1RigrPUcz6iXsxx8B7oqNN5DbzQ==";
-$connectionString = "DefaultEndpointsProtocol=https;AccountName=spc;AccountKey=73qtWStrIWp2Tq+8f4oRNaimhv/jPnz0RMxoRGOpWRVaO0QRhq02nJaBCxP4FAaaY/r4NURr9DM3RVuor95B1Q==";
+$connectionString = "DefaultEndpointsProtocol=https;AccountName=youraccountname;AccountKey=youraccountkey";
+
 // Create blob REST proxy.
 $blobRestProxy = ServicesBuilder::getInstance()->createBlobService($connectionString);
 

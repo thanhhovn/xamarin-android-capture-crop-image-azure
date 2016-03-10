@@ -2,10 +2,8 @@ var azure = require("azure");
 var app = require('express')();
 app.enable("jsonp callback");
 
-//process.env['AZURE_STORAGE_ACCOUNT'] = "thanhhosr";
-//process.env['AZURE_STORAGE_ACCESS_KEY'] = "4WrY+PtDhmwn4egEY8ti9dEtHrn/gzNqjbPYU7UCOZv+0+AfNbyq9zXtVEW1RigrPUcz6iXsxx8B7oqNN5DbzQ==";
-process.env['AZURE_STORAGE_ACCOUNT'] = "spc";
-process.env['AZURE_STORAGE_ACCESS_KEY'] = "73qtWStrIWp2Tq+8f4oRNaimhv/jPnz0RMxoRGOpWRVaO0QRhq02nJaBCxP4FAaaY/r4NURr9DM3RVuor95B1Q==";
+process.env['AZURE_STORAGE_ACCOUNT'] = "youraccountname";
+process.env['AZURE_STORAGE_ACCESS_KEY'] = "youraccountkey";
 /*
 var azure = require('azure');
 var blobs = azure.createBlobService();
